@@ -1,0 +1,40 @@
+{
+  "name": "ng-cache-testing-module",
+  "version": "1.0.0",
+  "description": "Cache Angular's testing modules to improve performance.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonTestNet/ng-cache-testing-module.git"
+  },
+  "keywords": [
+    "Angular",
+    "Test",
+    "Karma",
+    "Performance",
+    "Speed"
+  ],
+  "author": "SimonTest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimonTestNet/ng-cache-testing-module/issues"
+  },
+  "homepage": "https://github.com/SimonTestNet/ng-cache-testing-module#readme",
+  "devDependencies": {
+    "@angular/core": "^8.2.14",
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^13.1.2",
+    "rxjs": "^6.5.4",
+    "typescript": "^3.7.4",
+    "zone.js": "^0.10.2"
+  },
+  "peerDependencies": {
+    "@angular/core": "x.x.x",
+    "rxjs": "x.x.x",
+    "zone.js": "x.x.x"
+  }
+}
