@@ -10,7 +10,7 @@ npm i -D ng-cache-testing-module
 
 ## Usage
 
-Add `cacheTestingModule();` to your test suites (the root `describe`s in your test files). e.g.:
+Just add `cacheTestingModule();` to your test suites (the root `describe`s in your test files). e.g.:
 
 ```ts
 import { cacheTestingModule } from "ng-cache-testing-module";
@@ -30,7 +30,7 @@ describe("MyComponent", () => {
 
 ## Troubleshooting
 
-You may need to tweak the way you configure the testing module depending on your coding practices and how you write your tests. This is usually because of assuming the initial state of the dependencies, global state, or using global spies.
+You may need to tweak the way you configure the testing module depending on your coding practices and how you write your tests. This is usually because of assuming the initial state of the dependencies, using global state, or using global spies.
 
 ### Shared State
 
@@ -80,7 +80,6 @@ describe("MyComponent", () => {
     const namesServiceStub = TestBed.get(NameService);
     spyOn(namesServiceStub, "add");
     // ...
-  })
-
+  });
 });
 ```
