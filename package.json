@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "Cache Angular's testing modules to improve performance.",
   "main": "dist/index.js",
+  "bin": {
+    "ng-cache-testing-module": "bin/index.js"
+  },
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"

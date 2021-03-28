@@ -32,8 +32,8 @@ export function cacheTestingModule() {
 
   afterEach(() => {
     const testBed: any = getTestBed();
-    testBed._activeFixtures.forEach(
-      (fixture: ComponentFixture<{ destroy: () => void }>) => fixture.destroy()
+    testBed._activeFixtures.forEach((fixture: ComponentFixture<{ destroy: () => void }>) =>
+      fixture.destroy()
     );
     // reset ViewEngine TestBed
     testBed._instantiated = false;
