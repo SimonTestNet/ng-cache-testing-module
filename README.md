@@ -83,3 +83,7 @@ describe("MyComponent", () => {
   });
 });
 ```
+
+---
+
+If you like this tool then check out [SimonTest](https://marketplace.visualstudio.com/items?itemName=SimonTest.simontest). It takes care of the most tedious part of testing components and services: mocking dependencies. This extension analyzes your code and creates the necessary stubs, configures the TestBed, and it even generates basic tests.
