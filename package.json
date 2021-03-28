@@ -1,10 +1,10 @@
 {
   "name": "ng-cache-testing-module",
-  "version": "1.0.2",
+  "version": "1.1.3",
   "description": "Cache Angular's testing modules to improve performance.",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "bin": {
-    "ng-cache-testing-module": "bin/index.js"
+    "ng-cache-testing-module": "./bin/index.js"
   },
   "types": "dist/index.d.ts",
   "scripts": {
