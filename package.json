@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/SimonTestNet/ng-cache-testing-module#readme",
   "devDependencies": {
-    "@angular/core": "^8.2.14",
+    "@angular/core": "^10.2.5",
     "@types/jasmine": "^3.5.0",
     "@types/node": "^13.1.2",
     "rxjs": "^6.5.4",
